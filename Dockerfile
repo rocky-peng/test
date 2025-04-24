@@ -1,5 +1,5 @@
-#FROM openjdk:11-jdk
-FROM mirror.ccs.tencentyun.com/openjdk:11-jdk
+FROM openjdk:11-jdk
+#FROM mirror.ccs.tencentyun.com/openjdk:11-jdk
 #FROM openjdk:8-jre-alpine
 ENV SERVER_PORT=5885
 EXPOSE $SERVER_PORT
