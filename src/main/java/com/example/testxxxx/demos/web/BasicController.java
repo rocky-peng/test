@@ -32,6 +32,7 @@ public class BasicController {
     @RequestMapping("/hello")
     @ResponseBody
     public String hello(@RequestParam(name = "name", defaultValue = "unknown user") String name) {
+        System.out.println("hello " + name);
         return "Hello " + name;
     }
 
